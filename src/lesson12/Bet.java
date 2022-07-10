@@ -28,7 +28,7 @@ class Bet {
 
     public static void main(String[] args) {
 
-        System.out.println("Введите значение ставки и риск через пробел");
+        System.out.println("Enter the bet value and risk separated by a space");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         String[] bet = string.split(" ");
@@ -42,7 +42,7 @@ class Bet {
         int valueToReturn = bet1.getValue();
         double riskToReturn = bet1.getRisk();
 
-        System.out.println("Ставка " + valueToReturn);
-        System.out.println("Риск " + riskToReturn);
+        System.out.println("Value " + valueToReturn);
+        System.out.println("Risk " + riskToReturn);
     }
 }
