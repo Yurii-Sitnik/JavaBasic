@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Введите значение ставки и риск через пробел");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
