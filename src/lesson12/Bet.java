@@ -1,5 +1,4 @@
 package lesson12;
-
 import java.util.Scanner;
 
 class Bet {
