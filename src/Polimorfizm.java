@@ -3,7 +3,6 @@ public class Polimorfizm {
         void music() {
             System.out.println("Rok");
         }
-
         void music(int a) {
             System.out.println("Disco");
         }
