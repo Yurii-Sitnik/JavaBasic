@@ -13,13 +13,13 @@ public class Zoo {
         list.add(7, "giraffe");
 
         System.out.println(list);
-        System.out.println("Длина массива " + list.size());
+        System.out.println("Array length " + list.size());
         list.remove(6);
         list.remove(4);
         list.remove(2);
         System.out.println(list);
 
-        System.out.println("Длина массива " + list.size());
+        System.out.println("Array length " + list.size());
 
     }
 }
