@@ -6,10 +6,11 @@ public class Sequence {
         String str = "RROOOWW";
         System.out.println(someMethod(str));
     }
+
     static int someMethod(String str) {
         char[] Arr = str.toCharArray();
         int count = 1;
-        for (int i = 0; i < Arr.length - 1; i++) {
+        for (int i = 0; i < Arr.length-1; i++) {
             if (Arr[i] != Arr[i + 1])
                 count++;
         }
